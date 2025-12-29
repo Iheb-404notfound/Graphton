@@ -27,8 +27,8 @@ pip install -e .
 
 ```python
 import torch
-from Graphton.core import Graph
-from Graphton.layers import GCNConv
+from graphton.core import Graph
+from graphton.layers import GCNConv
 
 # Create a simple graph
 edge_index = torch.tensor([[0, 1, 1, 2], [1, 0, 2, 1]])
@@ -75,7 +75,7 @@ If you use Graphton in your research, please cite:
 ```bibtex
 @software{Graphton2024,
   title={Graphton: High-Performance Graph Neural Networks with Triton},
-  author={Your Name},
+  author={Iheb},
   year={2024}
 }
 ```
